@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DAD0D0"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+
+
+     <Button
+         android:id="@+id/bt1"
+         android:layout_width="300dp"
+         android:layout_height="70dp"
+         android:layout_marginBottom="20dp"
+         android:background="#222831"
+         android:text="Hotline"
+         android:textColor="#32e0c4"
+         android:textStyle="bold"
+         android:textSize="25dp"
+         />
+
+     <Button
+         android:id="@+id/bt2"
+         android:layout_width="300dp"
+         android:layout_height="70dp"
+         android:layout_marginBottom="20dp"
+         android:background="#222831"
+         android:text="Geolocated"
+         android:textColor="#32e0c4"
+         android:textStyle="bold"
+         android:textSize="25dp"
+         />
+
+     <Button
+         android:id="@+id/bt3"
+         android:layout_width="300dp"
+         android:layout_height="70dp"
+         android:layout_marginBottom="20dp"
+         android:background="#222831"
+         android:text="symptoms"
+         android:textColor="#32e0c4"
+         android:textStyle="bold"
+         android:textSize="25dp"/>
+
+     <Button
+         android:id="@+id/bt4"
+         android:layout_width="300dp"
+         android:layout_height="70dp"
+         android:layout_marginBottom="20dp"
+         android:background="#222831"
+         android:text="Guidances"
+         android:textSize="25dp"
+         android:textColor="#32e0c4"
+         android:textStyle="bold"
+         />
+
+     <Button
+         android:id="@+id/bt5"
+         android:layout_width="300dp"
+         android:layout_height="70dp"
+         android:layout_marginBottom="20dp"
+         android:background="#222831"
+         android:text="Health security"
+         android:textColor="#32e0c4"
+         android:textStyle="bold"
+         android:textSize="25dp"/>
+</LinearLayout>
